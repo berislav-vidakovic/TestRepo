@@ -1,6 +1,6 @@
 name: Test SSH Connection
 on:
-  workflow_dispatch:  # Allows trigger manually in GitHub
+  workflow_dispatch:  # Allows trigger manually in GitHub 
 jobs:
   test-ssh:
     runs-on: ubuntu-latest
