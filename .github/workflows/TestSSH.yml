@@ -2,7 +2,7 @@ name: Test SSH Connection
 on:
   push:
     branches:
-      - main  # Automatic trigger on git push  
+      - main  # Automatic trigger on git push   
   workflow_dispatch:  # Allows trigger manually in GitHub 
 jobs:
   test-ssh:
